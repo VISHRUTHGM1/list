@@ -7,7 +7,6 @@ end = int(input("Enter end number"))
 step = 1
 for j in range(start, end + 1, step):
     reg.append(j)
-print(reg)
 for i in range(start, end + 1, step):
     sqrt = math.sqrt(i)
     if int(sqrt) % 2 == 0:
